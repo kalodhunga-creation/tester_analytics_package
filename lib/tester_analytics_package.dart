@@ -1,7 +1,5 @@
 library tester_analytics_package;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+export 'package:tester_analytics_package/src/analytics.dart';
+export 'package:tester_analytics_package/src/identifier_for_tester.dart';
+export 'package:tester_analytics_package/src/tester_session_tracker.dart';
